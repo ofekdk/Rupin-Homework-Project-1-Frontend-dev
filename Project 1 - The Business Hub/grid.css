@@ -1,0 +1,46 @@
+.site-header .container {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 2.5rem;
+    align-items: center; 
+}
+
+.site-nav {
+    display: flex; 
+    justify-content: flex-end; 
+    gap: 0.9375rem;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    gap: 2rem; 
+    margin-top: 2rem;
+}
+
+.service-card {
+    background-color: #16161a;
+    border: 0.0625rem solid #2a2a2a;
+    border-radius: 0.5rem;
+    padding: 1.5rem;
+    border-top: 0.25rem solid #d6001c; 
+    transition: transform 0.3s ease;
+}
+
+.team-grid {
+    display: grid;
+grid-template-columns: 1fr 1fr;
+    gap: 1.875rem; 
+    margin-top: 2.5rem;
+    margin-bottom: 3.125rem;
+}
+
+.team-card {
+    background-color: #16161a; 
+    border: 0.0625rem solid #2a2a2a;
+    border-radius: 0.5rem;
+    padding: 2rem;
+    text-align: center;
+    border-top: 0.25rem solid #ff3347; 
+    transition: transform 0.3s ease, border-color 0.3s ease;
+}
