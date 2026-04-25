@@ -1,4 +1,4 @@
-## ASUS ROG Hub - HOMEWORK #1
+## ASUS ROG Hub - HOMEWORK #2
 
 A simple multi-page HTML/CSS homework project inspired by the ASUS ROG visual style.
 
