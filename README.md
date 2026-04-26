@@ -7,7 +7,14 @@ A simple multi-page HTML/CSS homework project inspired by the ASUS ROG visual st
 - `index.html` — Home page
 - `services.html` — Services page
 - `team.html` — Team page
-- `style.css` — Shared stylesheet
+- `styles.css` — Shared stylesheet (Entry point using @import)
+
+ ## Modular CSS Components
+  
+* `globals.css` — Base styles, variables, and resets
+* `header.css` — Navigation bar and branding styles
+* `footer.css` — Copyright and footer layout
+* `grid.css` — Flexbox and Grid layouts for cards and sections
 
 ## Technologies Used
 
