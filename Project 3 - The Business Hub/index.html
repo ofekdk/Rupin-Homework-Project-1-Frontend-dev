@@ -1,0 +1,110 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlyHigh | Home</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body dir="ltr">
+    <header class="site-header">
+        <div class="container">
+            <div class="logo-area">
+            <h1>FlyHigh</h1>
+        </div>
+
+            <nav class="site-nav" aria-label="Main navigation">
+                <a href="index.html" class="active">Home</a>
+                <a href="destinations.html">Our Destinations</a>
+                <a href="recommendations.html">recommendations</a>
+
+            </nav>
+        </div> 
+    </header>
+
+    <main>
+        <form action="" class="booking-form">
+          <h1 class="form-title">Book A Flight</h1>
+            <div class="row">
+                <label>
+                    <input type="radio" name="ChooseFlight" value="R" required>
+                    <span>round trip</span>
+                </label>
+                
+                <label>
+                    <input type="radio" name="ChooseFlight" value="O" required>
+                    <span>one-way</span>
+                </label>
+            </div>
+
+        <section class="inputs-row">
+            <label for="from">
+                <span>From</span>
+                    <select name="from" id="from" required>
+                        <option value="" disabled selected>Select Origin</option>
+                        <option value="1">Santorini (JTR)</option>
+                        <option value="2">Munich (MUC)</option>
+                        <option value="3">Tel Aviv (TLV)</option>
+                        <option value="4">Corfu (CFU)</option>
+                        <option value="5">New York City (JFK)</option>
+                        <option value="6">Tokyo (NRT)</option>
+                        <option value="7">Rome (FCO)</option>
+                        <option value="8">London (LON)</option>
+                        <option value="9">Bangkok (BKK)</option>
+                    </select>
+            </label>
+
+            <label for="To">
+                <span>To</span>
+                    <select name="To" id="To" required>
+                        <option value="" disabled selected>Select Destination</option>
+                        <option value="1">Santorini (JTR)</option>
+                        <option value="2">Athens (ATH)</option>
+                        <option value="3">Tel Aviv (TLV)</option>
+                        <option value="4">Paris (CDG)</option>
+                        <option value="5">New York City (JFK)</option>
+                        <option value="6">Tokyo (NRT)</option>
+                        <option value="7">Rome (FCO)</option>
+                        <option value="8">Barcelona (BCN)</option>
+                        <option value="9">Bangkok (BKK)</option>
+                    </select>
+            </label>   
+
+            <label for="Departure" class="date-box">
+                <span>Departure</span>
+                <input type="date" id="Departure" name="Departure" required>
+            </label>
+
+            <label for="Return" class="date-box">
+                <span>Return</span>
+                <input type="date" id="Return" name="Return" required>
+            </label>
+
+            <label for="Passenger">
+                <span>Passengers</span>
+                <input type="number" id="Passenger" name="Passenger" min="1" max="9" placeholder="1-9" required>
+            </label>
+        
+        </section>
+
+        <div class="email-section">
+            <label for="Email">
+                <span class="Email">Where should we send the tickets?</span>
+                <input type="email" id="Email" name="Email" placeholder="your@email.com" required>
+            </label>
+        </div>
+
+           <button class="FindFlights">Find flights</button>
+        </form>
+    </main>
+
+        <footer class="site-footer">
+            <div class="container">          
+                <p>&copy; FlyHigh Homework project 3 | Ofek & Shani</p>
+            </div>        
+        </footer>
+    </body>
+</html>

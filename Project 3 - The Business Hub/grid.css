@@ -1,0 +1,36 @@
+
+.destinations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 2rem;
+    margin-top: 4rem; 
+}
+
+
+
+.row {
+    width: 80%;
+    display: flex;
+    margin: 0 auto;
+    flex-direction: row;
+    align-items: flex-start;
+    margin-bottom: 1rem;
+}
+
+.inputs-row{
+    display: grid;
+    grid-template-columns: repeat(5, 0.5fr);
+    gap: 0.5rem;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.recommendations-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.5rem;
+    margin-top: 2rem;
+    padding: 0.5rem;
+}
+
+

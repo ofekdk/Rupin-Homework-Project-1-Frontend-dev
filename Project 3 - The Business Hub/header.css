@@ -1,0 +1,58 @@
+.site-header {
+    background-color: #ffffff;
+    padding: 1.5rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-bottom: 0.0625rem solid #050404;
+}
+
+.site-header .container {
+    display: grid;
+    grid-template-columns: auto 1fr; 
+    gap: 3rem;
+    align-items: center; 
+}
+
+.site-nav {
+    display: flex; 
+    justify-content: flex-end; 
+    gap: 0.9375rem;
+}
+
+
+.logo-area {
+    text-align: left; 
+}
+
+
+.logo-area .brand-tag {
+    margin-bottom: 0;
+}
+
+.brand-tag {
+    margin: 0 0 0.2rem 0;
+    color: #101216;
+    font-size: 0.9rem;
+}
+
+.site-nav a {
+    display: inline-block;
+    margin: 0 0.75rem;
+    padding-bottom: 0.25rem;
+    color: #0f0202;
+    text-decoration: none;
+    border-bottom: 0.125rem solid transparent;
+}
+
+.site-nav a:hover,
+.site-nav a.active {
+    color: #0b0304;
+    border-bottom: 0.125rem solid #000000;
+}
+
+.logo-area h1 {
+    color: #227ac2; 
+    font-size: 2.5rem;
+    margin: 0; 
+}
