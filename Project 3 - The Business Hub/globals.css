@@ -10,16 +10,11 @@ body {
     line-height: 1.6;
 }
 
-.container {
-    width: 90%;
-    max-width: 62rem;
-    margin: 0 auto;
-}
-
 h1,
 h2,
 h3 {
     color: #0b0a0a;
+    font-family: 'Heebo', sans-serif;
 }
 
 h1 {
@@ -45,3 +40,12 @@ th,
 td {
     font-size: 1rem;
 }
+
+.container {
+    width: 90%;
+    max-width: 62rem;
+    margin: 0 auto;
+}
+
+
+
